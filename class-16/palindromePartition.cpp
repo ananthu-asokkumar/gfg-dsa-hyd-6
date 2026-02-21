@@ -12,8 +12,6 @@ bool isPalindrome(string &s, int i, int j) {
     return true;
 }
 
-// TODO: Build this solution using the approach used in the previous problem
-// i.e., maintain the currentResult and push it into the final list of results in the Base case.
 vector<vector<string>> getPalindromeParitionsUtil(int i, string &s) {
     if (i == s.length()) {
         return {{""}};
